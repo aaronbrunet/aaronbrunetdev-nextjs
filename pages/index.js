@@ -13,12 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://aaronbrunet.dev">aaronbrunet.dev!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        Developer based in Orlando, Florida. Special interest in emerging technologies and the changing face of the web.
         </p>
 
         <div className={styles.grid}>
