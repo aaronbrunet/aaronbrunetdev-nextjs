@@ -31,11 +31,13 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  color: #5f5aa2;
 }
 
 .title a {
   color: #0070f3;
   text-decoration: none;
+  
 }
 
 .title a:hover,
@@ -58,6 +60,8 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  width: 60%;
+  color: #413f54;
 }
 
 .code {
@@ -110,8 +114,37 @@
 
 .logo {
   height: 1em;
-  margin-left: 0.5rem;
+  width: 1em;
+  margin: 0.5rem;
 }
+
+.grad {
+  color: #5f5aa2;
+  background: #5f5aa2;
+  background: -webkit-linear-gradient(135deg,#5f5aa2,#b94666);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;    
+}
+
+.links a {
+  font-size: 12pt;
+  color: #413f54; 
+  width: 3em;
+  margin: 1em;
+}
+
+.links a:hover {
+  color: #5f5aa2;
+} 
 
 @media (max-width: 600px) {
   .grid {

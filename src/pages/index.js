@@ -23,7 +23,7 @@ export default function Home() {
         </div> */}
  <main className='min-h-screen p-12'>
       
-      <h1 className='text-5xl pb-8'>Hi, I'm Aaron 👋</h1>
+      <h1 className='text-5xl'>Hi, I'm Aaron 👋</h1>
       <h3 className='text-2xl'>
           Welcome to <a className='text-blue-500 border-b-2 border-blue-500' href="https://aaronbrunet.dev">aaronbrunet.dev!</a>
         </h3>
@@ -73,8 +73,6 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+          </a>
       </footer>
-    
-  </>)
-}
+</>)}
