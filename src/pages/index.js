@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
@@ -32,7 +31,7 @@ export default function Home() {
         </div> 
       </main>
 
-      <footer className={styles.footer}>
+      <footer className='w-full justify-center flex'>
         <a
           href="https://aaronbru.net"
           target="_blank"
