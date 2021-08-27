@@ -24,7 +24,7 @@ export default function Home() {
         </div> */}
  <main className='min-h-screen p-12 flex flex-col'>
       <div className='justify-center self-center align-middle'>
-      <h1 className='text-5xl pb-8 title-font font-semibold'>Hi, I'm Aaron 👋</h1>
+      <h1 className='text-5xl pb-8 title-font font-semibold'>Hi, I'm Aaron <span>👋</span></h1>
         <p className='text-xl'>
         I'm a developer based in Orlando, Florida, with a special interest in emerging technologies and the changing face of the web.
         </p>     
