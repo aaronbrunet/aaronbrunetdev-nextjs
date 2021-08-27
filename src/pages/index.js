@@ -22,12 +22,20 @@ export default function Home() {
           </div>
 
         </div> */}
- <main className='min-h-screen p-12 flex flex-col'>
-      <div className='justify-center self-center align-middle'>
-      <h1 className='text-5xl pb-8 title-font font-semibold inline-block'>Hi, I'm Aaron</h1><div className='text-5xl inline-block hover:animate-wiggle'>👋</div>
-        <p className='text-xl'>
-        I'm a developer based in Orlando, Florida, with a special interest in emerging technologies and the changing face of the web.
-        </p>     
+      <main className='min-h-screen p-12 flex flex-col'>
+        <div className='justify-center self-center align-middle'>
+          <h1 className='pb-8 title-font inline-block'>Hi, I'm Aaron</h1><span className='text-5xl inline-block cursor-pointer hover:animate-wiggle'>👋</span>
+          <p className='text-xl w-3/5'>
+          I'm a developer based in Orlando, Florida, with a special interest in emerging technologies and the changing face of the web.
+          </p>
+          <div className='py-12 grid'>
+            <h3 className='subtitle-font pb-8'>Projects</h3>
+              <div className='max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6'>
+                <div className='grid-item'>Grid</div>
+                <div className='grid-item'>Grid</div>
+                <div className='grid-item'>Grid</div>
+              </div>
+          </div>     
         </div> 
       </main>
 

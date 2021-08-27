@@ -9,7 +9,18 @@
     aspect-ratio: 1 / 1;
   }
 
-  .title-font{
+  .title-font {
     font-family: 'Manrope', sans-serif;
+    @apply text-5xl font-semibold; 
   }
+
+  .subtitle-font{
+    font-family: 'Manrope', sans-serif;
+    @apply text-3xl font-bold;
+  }
+
+  .grid-item {
+    @apply h-48 shadow-lg square hover:shadow-2xl;
+  }
+  
 }
