@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 @layer utilities {
   .square {
     aspect-ratio: 1 / 1;
+  }
+
+  .title-font{
+    font-family: 'Manrope', sans-serif;
   }
 }
