@@ -23,25 +23,29 @@ export default function Home() {
           </div>
 
         </div> */}
-      <main className='min-h-screen p-12 flex flex-col'>
+      <main className='min-h-screen p-12 '>
+        <div className='flex flex-row'>
         <div className='justify-center self-center align-middle'>
           <h1 className='pb-8 title-font inline-block'>Hi, I'm Aaron</h1><span className='text-5xl inline-block cursor-pointer hover:animate-wiggle'>👋</span>
           <p className='text-xl w-3/5'>
           I'm a developer based in Orlando, Florida, with a special interest in emerging technologies and the changing face of the web.
           <br/><br/>
-          You can check out my <HeroLink href='https://www.linkedin.com/in/aaronwbrunet/' classes='border-blue-600'>LinkedIn</HeroLink> to connect, or my <HeroLink href='https://github.com/aaronbrunet' classes='border-yellow-600'>GitHub</HeroLink> to see what I've been working on.
+          You can check out my <HeroLink href='https://www.linkedin.com/in/aaronwbrunet/' classes='border-[#0a66c2]'>LinkedIn</HeroLink> to connect, or my <HeroLink href='https://github.com/aaronbrunet' classes='border-yellow-600'>GitHub</HeroLink> to see what I've been working on.
           <br/>
-          I'm currently working for <HeroLink href='https://www.servicenow.com/' classes='border-green-700'>ServiceNow</HeroLink> as a Performance Engineer.
+          I'm currently working for <HeroLink href='https://www.servicenow.com/' classes='border-[#81b5a1]'>ServiceNow</HeroLink> as a Performance Engineer.
           Think I should join what you're working on? Shoot me an <HeroLink href='mailto:contact@aaronbru.net' classes='border-red-600'>email</HeroLink>!</p>
-          <div className='py-12 grid'>
+               
+        </div>
+        <div className=''>Hi</div> 
+        </div>
+        <div className='py-12 grid'>
             <h3 className='subtitle-font pb-8'>Projects</h3>
               <div className='max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6'>
                 <div className='grid-item'>Grid</div>
                 <div className='grid-item'>Grid</div>
                 <div className='grid-item'>Grid</div>
               </div>
-          </div>     
-        </div> 
+          </div>
       </main>
 
       <footer className='w-full justify-center flex'>

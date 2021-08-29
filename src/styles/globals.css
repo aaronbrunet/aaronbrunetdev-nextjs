@@ -22,5 +22,9 @@
   .grid-item {
     @apply h-48 shadow-lg square hover:shadow-2xl;
   }
+
+  *{
+    /* border: 1px red solid; */
+  }
   
 }
