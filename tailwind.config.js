@@ -1,3 +1,5 @@
+const { transformOrigin } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
@@ -7,12 +9,15 @@ module.exports = {
       keyframes: {
        wiggle: {
          '0%,50%,100%': { transform: 'rotate(0deg)' },
-         '25%': { transform: 'rotate(15deg)' },
-         '75%': { transform: 'rotate(-15deg)' }
+         '25%': { transform: 'rotate(15deg)',
+         transformOrigin: 'bottom-right'
+         },
+         '75%': { transform: 'rotate(-15deg)',
+         transformOrigin: 'bottom-right' }
        }
       },
       animation: {
-        wiggle: 'wiggle .3s ease-in-out infinite'
+        wiggle: 'wiggle .3s ease-in-out 2'
       }
     },
   },
