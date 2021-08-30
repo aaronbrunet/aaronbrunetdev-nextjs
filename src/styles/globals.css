@@ -19,7 +19,7 @@
     @apply text-3xl font-bold;
   }
 
-  .grid-item {
+  .grid-item.grid-card {
     @apply h-48 shadow-lg square hover:shadow-2xl;
   }
 

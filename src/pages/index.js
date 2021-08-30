@@ -32,18 +32,26 @@ export default function Home() {
         </div>
         <div className='py-12 grid'>
             <h3 className='subtitle-font pb-8'>Tools & Technologies</h3>
-              <div className='max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6'>
-                <div className='grid-item'>Grid</div>
-                <div className='grid-item'>Grid</div>
-                <div className='grid-item'>Grid</div>
+              <div className='max-w-full grid gap-1 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-0 lg:grid-cols-12'>
+                <div className='grid-item'>HTML5</div>
+                <div className='grid-item'>CSS</div>
+                <div className='grid-item'>JS</div>
+                <div className='grid-item'>React</div>
+                <div className='grid-item'>NextJS</div>
+                <div className='grid-item'>Gatsby</div>
+                <div className='grid-item'>Tailwind</div>
+                <div className='grid-item'>Styled Components</div>
+                <div className='grid-item'>|</div>
+                <div className='grid-item'>AEM</div>
+                <div className='grid-item'>ServiceNow</div>
               </div>
           </div>
         <div className='py-12 grid'>
             <h3 className='subtitle-font pb-8'>Projects</h3>
               <div className='max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6'>
-                <div className='grid-item'>Grid</div>
-                <div className='grid-item'>Grid</div>
-                <div className='grid-item'>Grid</div>
+                <div className='grid-item grid-card'>Grid</div>
+                <div className='grid-item grid-card'>Grid</div>
+                <div className='grid-item grid-card'>Grid</div>
               </div>
           </div>
       </main>
