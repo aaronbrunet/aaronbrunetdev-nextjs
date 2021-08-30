@@ -5,8 +5,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 @layer utilities {
+  ::selection{
+    background: yellow;
+  }
+
+  .no-select {
+    -ms-user-select:none;
+   -moz-user-select:none;
+   -webkit-user-select:none;
+   -webkit-touch-callout: none;
+   -khtml-user-select: none;
+    user-select:none;
+  }
+
   .square {
     aspect-ratio: 1 / 1;
+  }
+
+  .top-border {
+    @apply inline-block w-1/4;
   }
 
   .title-font {
@@ -20,11 +37,11 @@
   }
 
   .grid-item.grid-card {
-    @apply h-48 shadow-lg square hover:shadow-2xl;
+    @apply h-72 square p-4 shadow-lg hover:shadow-2xl;
   }
 
   .row-item {
-    @apply px-2;
+    @apply px-2 font-semibold opacity-75 hover:opacity-100 no-select;
   }
 
   .row-item svg {
