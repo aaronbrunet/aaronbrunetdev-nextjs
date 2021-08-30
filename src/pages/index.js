@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { HeroLink } from '../components/HeroLink'
 import { Br2 } from '../components/Br2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faGit, faGithub, faHtml5, faJs, faLinkedinIn, faReact } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   
@@ -32,18 +32,18 @@ export default function Home() {
         </div>
         <div className='py-12 grid'>
             <h3 className='subtitle-font pb-8'>Tools & Technologies</h3>
-              <div className='max-w-full grid gap-1 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-0 lg:grid-cols-12'>
-                <div className='grid-item'>HTML5</div>
-                <div className='grid-item'>CSS</div>
-                <div className='grid-item'>JS</div>
-                <div className='grid-item'>React</div>
-                <div className='grid-item'>NextJS</div>
-                <div className='grid-item'>Gatsby</div>
-                <div className='grid-item'>Tailwind</div>
-                <div className='grid-item'>Styled Components</div>
-                <div className='grid-item'>|</div>
-                <div className='grid-item'>AEM</div>
-                <div className='grid-item'>ServiceNow</div>
+              <div className='max-w-full flex flex-row'>
+                <div className='row-item'><FontAwesomeIcon icon={faHtml5}/></div>
+                <div className='row-item'><FontAwesomeIcon icon={faCss3}/></div>
+                <div className='row-item'><FontAwesomeIcon icon={faJs}/></div>
+                <div className='row-item'><FontAwesomeIcon icon={faReact}/></div>
+                <div className='row-item'>NextJS</div>
+                <div className='row-item'>Gatsby</div>
+                <div className='row-item'>Tailwind</div>
+                <div className='row-item'>Styled Components</div>
+                <div className='row-item'>AEM</div>
+                <div className='row-item'>ServiceNow</div>
+                <div className='row-item'><FontAwesomeIcon icon={faGit}/></div>
               </div>
           </div>
         <div className='py-12 grid'>

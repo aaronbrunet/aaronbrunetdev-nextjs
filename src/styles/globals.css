@@ -23,6 +23,15 @@
     @apply h-48 shadow-lg square hover:shadow-2xl;
   }
 
+  .row-item {
+    @apply px-2;
+  }
+
+  .row-item svg {
+    @apply w-[30px] h-[30px];
+  }
+  
+
   *{
     /* border: 1px red solid; */
   }
