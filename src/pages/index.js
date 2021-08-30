@@ -26,7 +26,7 @@ export default function Home() {
         <div className='justify-center self-center align-middle'>
           <h1 className='pb-8 title-font inline-block'>Hi, I'm Aaron</h1><span className='no-select text-5xl inline-block cursor-pointer hover:animate-wiggle'>👋</span>
           <p className='text-xl w-3/5'>
-          I'm a developer based in Orlando, Florida, with a special interest in emerging technologies and the changing face of the web.
+          I'm a fullstack developer based in Orlando, Florida, with a special interest in user-first design, emerging technologies and the changing face of the web.
           <Br2 />
           You can connect with me on <HeroLink href='https://www.linkedin.com/in/aaronwbrunet/' classes='border-[#0a66c2]'>LinkedIn</HeroLink>, or check out my <HeroLink href='https://github.com/aaronbrunet' classes='border-yellow-600'>GitHub</HeroLink> to see what I've been working on.
           <br/>
@@ -40,10 +40,10 @@ export default function Home() {
         <div className='py-8 grid'>
             <h3 className='subtitle-font pb-8'>Tools & Technologies</h3>
               <div className='max-w-full flex flex-row'>
-                <div className='row-item'><FontAwesomeIcon icon={faHtml5}/></div>
-                <div className='row-item'><FontAwesomeIcon icon={faCss3}/></div>
-                <div className='row-item'><FontAwesomeIcon icon={faJs}/></div>
-                <div className='row-item'><FontAwesomeIcon icon={faReact}/></div>
+                <div className='row-item'><FontAwesomeIcon icon={faHtml5} className='text-yellow-800'/></div>
+                <div className='row-item'><FontAwesomeIcon icon={faCss3} className='text-blue-600'/></div>
+                <div className='row-item'><FontAwesomeIcon icon={faJs} className='text-yellow-400'/></div>
+                <div className='row-item'><FontAwesomeIcon icon={faReact} className='text-blue-400'/></div>
                 <div className='row-item'>NextJS</div>
                 <div className='row-item'>Gatsby</div>
                 <div className='row-item'>Tailwind</div>
