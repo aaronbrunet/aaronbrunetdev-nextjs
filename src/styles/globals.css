@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 @layer utilities {
+  body {
+    @apply w-full;
+  }
   ::selection{
     background: yellow;
   }
@@ -22,13 +25,21 @@
     aspect-ratio: 1 / 1;
   }
 
+  .rectangle {
+    aspect-ratio: 2 / 1;
+  }
+
   .top-border {
     @apply inline-block w-1/4;
   }
 
   .title-font {
     font-family: 'Manrope', sans-serif;
-    @apply text-5xl font-semibold; 
+    @apply text-8xl font-semibold; 
+  }
+  .title-subfont {
+    font-family: 'Manrope', sans-serif;
+    @apply text-5xl font-semibold pl-3; 
   }
 
   .subtitle-font{
@@ -36,16 +47,53 @@
     @apply text-3xl font-bold;
   }
 
-  .grid-item.grid-card {
-    @apply h-72 square p-4 shadow-lg hover:shadow-2xl;
+  .sub-subtitle-font {
+    font-family: 'Manrope', sans-serif;
+    @apply text-xl font-bold;
   }
 
-  .row-item {
+  .project-card {
+    @apply relative rectangle p-4 shadow-lg rounded-2xl hover:shadow-2xl;
+  }
+  
+  .tag {
+    @apply p-1 my-0 mx-2 justify-center items-center flex rounded-md w-auto h-6 font-semibold opacity-75 text-white hover:opacity-100;
+  }
+
+  .tt-item {
     @apply px-2 font-semibold opacity-75 hover:opacity-100 no-select;
   }
 
-  .row-item svg {
-    @apply w-[30px] h-[30px];
+  .tt-item svg {
+    @apply h-4 w-4 ml-2 text-white;
+  }  
+
+  .tag-react {
+    @apply bg-[#67d7fc];
+  }
+  .tag-js {
+    @apply bg-[#f4dc1a];
+  }
+  .tag-css {
+    @apply bg-[#244ce1];
+  }
+  .tag-html {
+    @apply bg-[#e34b24];
+  }
+  .tag-next {
+    @apply bg-black;
+  }
+  .tag-gatsby {
+    @apply bg-[#7026b9];
+  }
+  .tag-tailwind {
+    @apply bg-gradient-to-r from-[#3d9faf] to-[#48b0b2];
+  }
+  .tag-styled {
+    @apply bg-gradient-to-tr from-[#d77091] to-[#eeaf5c];
+  }
+  .tag-sass {
+    @apply bg-[#cf6499];
   }
   
 

@@ -4,6 +4,13 @@ import { HeroLink } from '../components/HeroLink'
 import { Br2 } from '../components/Br2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faGit, faGithub, faHtml5, faJs, faLinkedinIn, faReact } from '@fortawesome/free-brands-svg-icons'
+import { Project } from '../components/Project'
+
+import NextLogo from '../assets/next.svg'
+import GatsbyLogo from '../assets/gatsby.svg'
+import TailwindLogo from '../assets/tailwind.svg'
+import SassLogo from '../assets/sass.svg'
+
 
 export default function Home() {
   
@@ -20,45 +27,75 @@ export default function Home() {
           <div className='top-border bg-green-600'></div>
           <div className='top-border bg-red-600'></div>
         </div>
-      <main className='min-h-screen p-12'>
+      <main className='min-h-screen p-8'>
         
         <div className='flex flex-row'>
-        <div className='justify-center self-center align-middle'>
-          <h1 className='pb-8 title-font inline-block'>Hi, I'm Aaron</h1><span className='no-select text-5xl inline-block cursor-pointer hover:animate-wiggle'>👋</span>
-          <p className='text-xl w-3/5'>
-          I'm a fullstack developer based in Orlando, Florida, with a special interest in user-first design, emerging technologies and the changing face of the web.
-          <Br2 />
-          You can connect with me on <HeroLink href='https://www.linkedin.com/in/aaronwbrunet/' classes='border-[#0a66c2]'>LinkedIn</HeroLink>, or check out my <HeroLink href='https://github.com/aaronbrunet' classes='border-yellow-600'>GitHub</HeroLink> to see what I've been working on.
-          <br/>
-          I'm currently working for <HeroLink href='https://www.servicenow.com/' classes='border-[#81b5a1]'>ServiceNow</HeroLink> as a <span className='font-semibold'>Performance Engineer</span>.
-          <Br2 />
-          Think I should join your team? Shoot me an <HeroLink href='mailto:contact@aaronbru.net' classes='border-red-600'>email</HeroLink>!</p>
-               
-        </div>
-        <div className=''>Right Column</div> 
-        </div>
+          <div className='justify-center self-center align-middle'>
+            <h1 className='p-0 title-subfont'>Hi, I'm</h1>
+            <h1 className='pb-8 title-font inline-block'>Aaron</h1><span className='no-select title-font inline-block cursor-pointer hover:animate-wiggle'>👋</span>
+            <p className='text-xl w-3/5'>
+            I'm a fullstack developer based in Orlando, Florida, with a special interest in user-first design, emerging technologies and the changing face of the web.
+            <Br2 />
+            You can connect with me on <HeroLink href='https://www.linkedin.com/in/aaronwbrunet/' classes='border-[#0a66c2]'>LinkedIn</HeroLink>, or check out my <HeroLink href='https://github.com/aaronbrunet' classes='border-yellow-600'>GitHub</HeroLink> to see what I've been working on.
+            <br/>
+            I'm currently working for <HeroLink href='https://www.servicenow.com/' classes='border-[#81b5a1]'>ServiceNow</HeroLink> as a <span className='font-semibold'>Performance Engineer</span>.
+            <Br2 />
+            Think I should join your team? Shoot me an <HeroLink href='mailto:contact@aaronbru.net' classes='border-red-600'>email</HeroLink>!</p>
+                
+          </div>
+          {/* <div className=''>Right Column</div>  */}
+          </div>
         <div className='py-8 grid'>
-            <h3 className='subtitle-font pb-8'>Tools & Technologies</h3>
-              <div className='max-w-full flex flex-row'>
-                <div className='row-item'><FontAwesomeIcon icon={faHtml5} className='text-yellow-800'/></div>
-                <div className='row-item'><FontAwesomeIcon icon={faCss3} className='text-blue-600'/></div>
-                <div className='row-item'><FontAwesomeIcon icon={faJs} className='text-yellow-400'/></div>
-                <div className='row-item'><FontAwesomeIcon icon={faReact} className='text-blue-400'/></div>
-                <div className='row-item'>NextJS</div>
-                <div className='row-item'>Gatsby</div>
-                <div className='row-item'>Tailwind</div>
-                <div className='row-item'>Styled Components</div>
-                <div className='row-item'>AEM</div>
-                <div className='row-item'>ServiceNow</div>
-                <div className='row-item'><FontAwesomeIcon icon={faGit}/></div>
+            <h3 className='subtitle-font pb-6'>Tools & Technologies</h3>
+            <h4 className='sub-subtitle-font pb-2'>Services & Platforms</h4>
+              <div className='w-full flex flex-row pb-4'>
+                <div className='tt-item'>AEM</div>
+                <div className='tt-item'>ServiceNow</div>
+                {/* <div className='tt-item'><FontAwesomeIcon icon={faGit}/></div> */}
+                <div className='tt-item'>Git</div>
               </div>
+            <h4 className='sub-subtitle-font pb-2'>Languages & Frameworks</h4>
+              <div className='w-full flex flex-row pb-4'>
+                {/* <div className='tt-item'><FontAwesomeIcon icon={faHtml5} className='text-yellow-800'/></div>
+                <div className='tt-item'><FontAwesomeIcon icon={faCss3} className='text-blue-600'/></div>
+                <div className='tt-item'><FontAwesomeIcon icon={faJs} className='text-yellow-400'/></div>
+                <div className='tt-item'><FontAwesomeIcon icon={faReact} className='text-blue-400'/></div> */}
+                <div className='tt-item tag tag-html'>HTML5 <FontAwesomeIcon icon={faHtml5}/></div>
+                <div className='tt-item tag tag-css'>CSS3 <FontAwesomeIcon icon={faCss3}/></div>
+                <div className='tt-item tag tag-js'>Javascript <FontAwesomeIcon icon={faJs}/></div>
+                <div className='tt-item tag tag-react'>React <FontAwesomeIcon icon={faReact}/></div>
+                <div className='tt-item tag tag-next'>NextJS <NextLogo fill='white'/></div>
+                <div className='tt-item tag tag-gatsby'>GatsbyJS <GatsbyLogo fill='white'/></div>
+                <div className='tt-item tag tag-tailwind'>TailwindCSS <TailwindLogo fill='white'/></div>
+                <div className='tt-item tag tag-styled'>styled-components 💅</div>
+                <div className='tt-item tag tag-sass'>SASS</div>
+              </div>
+              
           </div>
         <div className='py-8 grid'>
             <h3 className='subtitle-font pb-8'>Projects</h3>
-              <div className='w-full grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6'>
-                <div className='grid-item grid-card'>Project</div>
-                <div className='grid-item grid-card'>Project</div>
-                <div className='grid-item grid-card'>Project</div>
+              <div className='w-full grid gap-6 grid-cols-2'>
+                <Project 
+                  title='Levi Merchant Financial Consulting'
+                  linkHref='https://levimerchant.com/'
+                  linkTitle='levimerchant.com'
+                  tags={[{title:'React',value:'react'},{title:'GatsbyJS',value:'gatsby'},{title:'TailwindCSS',value:'tailwind'}]}
+                  border='border-blue-400'
+                >
+                  <div>This was a project to make a website for Levi.</div>
+                </Project>
+                <Project 
+                  title='Write Like The Wind!'
+                  linkHref='https://aaronbrunet.dev/write-sprinter/'
+                  linkTitle='aaronbrunet.dev/write-sprinter'
+                  gitHubHref='https://github.com/aaronbrunet/write-sprinter'
+                  tags={[{title:'React',value:'react'},{title:'TailwindCSS',value:'tailwind'}]}
+                  border='border-[#b94666]'
+                >
+                  <div>Write Like The Wind was written to facilitate writing sprints, such as for a creative writing class, blogging, journaling, or a competition like NaNoWriMo - in fact, the impetus for the project was the sad attempts at manual timekeeping and word-tracking for a NaNoWriMo writing group. Choose the length of time, click 'Start', and get writing!</div>
+                </Project>
+                <Project />
+                
               </div>
           </div>
       </main>
