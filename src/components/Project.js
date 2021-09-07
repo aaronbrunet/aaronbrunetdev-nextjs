@@ -7,7 +7,7 @@ export const Project = ({title='Project Title',linkHref='#',linkTitle='Link',git
         <div className={`project-card border-4 ${border}`}>
             <h4 className='p-2 block text-3xl font-semibold'>{title}</h4>
             <div className='flex flex-row px-2 py-0 pb-6 '>
-                <h4 className='text-xl'>
+                <h4 className={`text-xl text-${color}`}>
                     <a className={`${border} border-opacity-100 border-b-[3px] hover:border-opacity-75 hover:text-gray-500 hover:border-b-[5px] hover:pb-0`} href={linkHref} target='_blank'>
                     {linkTitle}
                     </a>

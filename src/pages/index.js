@@ -94,6 +94,28 @@ export default function Home() {
                 >
                   <div>Write Like The Wind was written to facilitate writing sprints, such as for a creative writing class, blogging, journaling, or a competition like NaNoWriMo - in fact, the impetus for the project was the sad attempts at manual timekeeping and word-tracking for a NaNoWriMo writing group. Choose the length of time, click 'Start', and get writing! Future enhancements will allow you to race against your friends.</div>
                 </Project>
+                <Project 
+                  title='R&ller: Prepare to Die'
+                  linkHref='https://aaronbrunet.dev/prepare-to-die/'
+                  linkTitle='aaronbrunet.dev/prepare-to-die/'
+                  gitHubHref='https://github.com/aaronbrunet/prepare-to-die'
+                  tags={[{title:'React',value:'react'},{title:'styled-components',value:'styled'}]}
+                  border='border-[#2EA9BD]'
+                  color='[#2EA9BD]'
+                >
+                  <div>R&ller was an introductory experiment into the world of React. Built to act as a dice roller for a tabletop game like D&D, R&ller aimed to provide every kind of dice used, as well as modifiers.</div>
+                </Project>
+                <Project 
+                  title='A Friendly Tip'
+                  linkHref='https://aaronbrunet.dev/friendly-tip/'
+                  linkTitle='aaronbrunet.dev/friendly-tip/'
+                  gitHubHref='https://github.com/aaronbrunet/friendly-tip'
+                  tags={[{title:'React',value:'react'},{title:'styled-components',value:'styled'},{title:'SASS',value:'sass'}]}
+                  border='border-[#feb1b1]'
+                  color='[#feb1b1]'
+                >
+                  <div><b>Best viewed on mobile!</b><br/>Tired of fumbling for the Calculator app at the end of a meal and working out .2 x subtotal, I wrote 'A Friendly Tip' as a practice of design using AdobeXD, and to make settling up after dinner a little bit easier.</div>
+                </Project>
                 <Project />
                 
               </div>

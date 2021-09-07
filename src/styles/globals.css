@@ -57,11 +57,11 @@
   }
   
   .tag {
-    @apply p-1 my-0 mx-2 justify-center items-center flex rounded-md w-auto h-6 font-semibold opacity-75 text-white hover:opacity-100 transform transition duration-100 hover:-translate-y-1 cursor-pointer;
+    @apply p-1 my-0 mx-2 justify-center items-center flex rounded-md w-auto h-6 font-semibold opacity-75 text-white hover:opacity-100;
   }
 
   .tt-item {
-    @apply px-2 font-semibold opacity-75 hover:opacity-100 no-select;
+    @apply px-2 font-semibold opacity-75 hover:opacity-100 no-select transform transition duration-100 hover:-translate-y-1 cursor-pointer;
   }
 
   .tt-item svg {
