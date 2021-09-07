@@ -116,7 +116,7 @@ export default function Home() {
                 >
                   <div><b>Best viewed on mobile!</b><br/>Tired of fumbling for the Calculator app at the end of a meal and working out .2 x subtotal, I wrote 'A Friendly Tip' as a practice of design using AdobeXD, and to make settling up after dinner a little bit easier.</div>
                 </Project>
-                <Project />
+                
                 
               </div>
           </div>
