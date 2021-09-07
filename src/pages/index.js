@@ -82,7 +82,7 @@ export default function Home() {
                   tags={[{title:'React',value:'react'},{title:'GatsbyJS',value:'gatsby'},{title:'TailwindCSS',value:'tailwind'}]}
                   border='border-blue-400'
                 >
-                  <div>This was a project to make a website for Levi.</div>
+                  <div>LeviMerchant.com was created for Levi Merchant Financial Services, a client looking to establish an online presence. The website is in a multi-phase launch; initial launch consists only of a landing page that provides links to the client's Calendly service and social media, as well as information and testimonials. Future features will include blogging and analytics, so while a simple project at first, LeviMerchant.com was created using GatsbyJS to provide plenty of breathing room for future enhancements.</div>
                 </Project>
                 <Project 
                   title='Write Like The Wind!'
@@ -92,7 +92,7 @@ export default function Home() {
                   tags={[{title:'React',value:'react'},{title:'TailwindCSS',value:'tailwind'}]}
                   border='border-[#b94666]'
                 >
-                  <div>Write Like The Wind was written to facilitate writing sprints, such as for a creative writing class, blogging, journaling, or a competition like NaNoWriMo - in fact, the impetus for the project was the sad attempts at manual timekeeping and word-tracking for a NaNoWriMo writing group. Choose the length of time, click 'Start', and get writing!</div>
+                  <div>Write Like The Wind was written to facilitate writing sprints, such as for a creative writing class, blogging, journaling, or a competition like NaNoWriMo - in fact, the impetus for the project was the sad attempts at manual timekeeping and word-tracking for a NaNoWriMo writing group. Choose the length of time, click 'Start', and get writing! Future enhancements will allow you to race against your friends.</div>
                 </Project>
                 <Project />
                 

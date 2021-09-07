@@ -53,11 +53,11 @@
   }
 
   .project-card {
-    @apply relative rectangle p-4 shadow-lg rounded-2xl hover:shadow-2xl;
+    @apply relative rectangle p-4 shadow-lg rounded-2xl hover:shadow-2xl  transform transition duration-100 hover:-translate-y-2;
   }
   
   .tag {
-    @apply p-1 my-0 mx-2 justify-center items-center flex rounded-md w-auto h-6 font-semibold opacity-75 text-white hover:opacity-100;
+    @apply p-1 my-0 mx-2 justify-center items-center flex rounded-md w-auto h-6 font-semibold opacity-75 text-white hover:opacity-100 transform transition duration-100 hover:-translate-y-1 cursor-pointer;
   }
 
   .tt-item {
