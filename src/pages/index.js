@@ -47,7 +47,7 @@ export default function Home() {
           {/* <div className=''>Right Column</div>  */}
           </div>
         <div className='py-8 grid '>
-            <h3 className='subtitle-font pb-6'>Tools & Technologies</h3>
+            <h3 className='subtitle-font pb-6'>🔨 Tools & Technologies</h3>
             <h4 className='sub-subtitle-font pb-2'>Services & Platforms</h4>
               <div className='w-full flex flex-row pb-4'>
                 <div className='tt-item'>AEM</div>
@@ -68,7 +68,7 @@ export default function Home() {
               
           </div>
         <div className='py-8 grid'>
-            <h3 className='subtitle-font pb-8'>Projects</h3>
+            <h3 className='subtitle-font pb-8'>💻 Projects</h3>
               <div className='w-full grid gap-6 grid-cols-2'>
                 <Project 
                   title='Levi Merchant Financial Consulting'
@@ -78,6 +78,17 @@ export default function Home() {
                   border='border-blue-400'
                 >
                   <div>LeviMerchant.com was created for Levi Merchant Financial Services, a client looking to establish an online presence. The website is in a multi-phase launch; initial launch consists only of a landing page that provides links to the client's Calendly service and social media, as well as information and testimonials. Future features will include blogging and analytics, so while a simple project at first, LeviMerchant.com was created using GatsbyJS to provide plenty of breathing room for future enhancements.</div>
+                </Project>
+                <Project 
+                  title='Portfolio Site'
+                  linkHref='https://aaronbrunet.dev/'
+                  linkTitle='aaronbru.net / aaronbrunet.dev'
+                  tags={[{title:'React',value:'react'},{title:'NextJS',value:'next'},{title:'TailwindCSS',value:'tailwind'}]}
+                  border='border-yellow-600'
+                >
+                  <div>
+                    This portfolio site was created for multiple purposes; first, to serve as an online resume and project presentation site. Second, to practice the usage of NextJS, React, and TailwindCSS. Third, to serve as a future home for all projects, blogs, applications, and more. Fourthly, to serve as a testbed for any future technologies to play with. Finally, to get me hired.
+                  </div>
                 </Project>
                 <Project 
                   title='Write Like The Wind!'
