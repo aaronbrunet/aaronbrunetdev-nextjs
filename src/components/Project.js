@@ -4,7 +4,7 @@ export const Project = ({title='Project Title',linkHref='#',linkTitle='Link',git
     const borderColor = 'border-'+color
     
     return (
-        <div className={`project-card border-4 ${border}`}>
+        <div className={`project-card border-4 ${border} bg-white`}>
             <h4 className='p-2 block text-3xl font-semibold'>{title}</h4>
             <div className='flex flex-row px-2 py-0 pb-6 '>
                 <h4 className={`text-xl text-${color}`}>
