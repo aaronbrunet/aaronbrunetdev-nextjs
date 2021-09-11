@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { HeroLink } from '../components/HeroLink'
 import { Br2 } from '../components/Br2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGit, faGithub, faHtml5, faJs, faLinkedinIn, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import { Project } from '../components/Project'
 
 import NextLogo from '../assets/next.svg'
