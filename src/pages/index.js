@@ -21,19 +21,19 @@ export default function Home() {
         <meta name="description" content="Aaron Brunet's portfolio" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className='flex flex-row h-[4px] w-full'>
+      <div className='flex flex-row h-[4px] w-screen'>
           <div className='top-border bg-blue-600'></div>
           <div className='top-border bg-yellow-600'></div>
           <div className='top-border bg-green-600'></div>
           <div className='top-border bg-red-600'></div>
         </div>
-      <main className='min-h-screen p-8 bg-gradient-to-b from-white to-gray-100'>
+      <main className='min-h-screen p-4 md:p-8 bg-gradient-to-b from-white to-gray-100 w-screen'>
         
         <div className='flex flex-row'>
           <div className='justify-center self-center align-middle'>
             <h1 className='p-0 title-subfont'>Hi, I'm</h1>
-            <h1 className='pb-8 title-font inline-block'>Aaron</h1><span className='no-select title-font inline-block cursor-pointer hover:animate-wiggle'>👋</span>
-            <p className='text-xl w-3/5 mb-8'>
+            <span className='w-full'><h1 className='pb-8 title-font inline-block'>Aaron</h1><span className='no-select title-font inline-block cursor-pointer hover:animate-wiggle'>👋</span></span>
+            <p className='text-xl w-full md:w-3/5 mb-8'>
             <span className='text-2xl mb-8'>I'm a <strong>fullstack developer</strong> based in Orlando, Florida, with a special interest in user-first design, emerging technologies and the changing face of the web.
             </span>
             <Br2 />
@@ -54,7 +54,7 @@ export default function Home() {
                 <div className='tt-item'>ServiceNow</div>
               </div>
             <h4 className='sub-subtitle-font pb-2'>Languages & Frameworks</h4>
-              <div className='w-2/3 flex flex-row flex-wrap pb-4'>
+              <div className='w-full md:w-2/3 flex flex-row flex-wrap pb-4'>
                 <div className='tt-item tag tag-html'>HTML5 <FontAwesomeIcon icon={faHtml5}/></div>
                 <div className='tt-item tag tag-css'>CSS3 <FontAwesomeIcon icon={faCss3}/></div>
                 <div className='tt-item tag tag-js'>Javascript <FontAwesomeIcon icon={faJs}/></div>
@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         <div className='py-8 grid'>
             <h3 className='subtitle-font pb-8'>💻 Projects</h3>
-              <div className='w-full grid gap-6 grid-cols-2'>
+              <div className='w-full grid gap-6 md:grid-cols-2 grid-cols-1'>
                 <Project 
                   title='Levi Merchant Financial Consulting'
                   linkHref='https://levimerchant.com/'
