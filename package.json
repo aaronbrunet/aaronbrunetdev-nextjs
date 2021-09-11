@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "env TAILWIND_MODE=watch NODE_ENV=development next dev",
-    "build": "npm run build:css && next build",
-    "build:css":"postcss ./src/styles/tailwind.css -o ./src/styles/globals.css",
+    "build": "next build",
+    "build:css":"postcss src/styles/tailwind.css -o src/styles/globals.css",
     "start": "next start"
   },
   "dependencies": {

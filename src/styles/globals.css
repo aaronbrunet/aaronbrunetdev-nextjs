@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+@layer utilities {
+  body {
+    @apply w-full;
+  }
+  ::selection{
+    background: yellow;
+  }
+
+  .no-select {
+    -ms-user-select:none;
+   -moz-user-select:none;
+   -webkit-user-select:none;
+   -webkit-touch-callout: none;
+   -khtml-user-select: none;
+    user-select:none;
+  }
+
+  .square {
+    aspect-ratio: 1 / 1;
+  }
+
+  .rectangle {
+    aspect-ratio: 2 / 1;
+  }
+
+  .top-border {
+    @apply inline-block w-1/4;
+  }
+
+  .title-font {
+    font-family: 'Manrope', sans-serif;
+    @apply text-8xl font-semibold; 
+  }
+  .title-subfont {
+    font-family: 'Manrope', sans-serif;
+    @apply text-5xl font-semibold pl-3; 
+  }
+
+  .subtitle-font{
+    font-family: 'Manrope', sans-serif;
+    @apply text-3xl font-bold;
+  }
+
+  .sub-subtitle-font {
+    font-family: 'Manrope', sans-serif;
+    @apply text-xl font-bold;
+  }
+
+  .project-card {
+    @apply relative rectangle p-4 rounded-2xl transform transition duration-100 hover:-translate-y-2;
+  }
+
+  .tag {
+    @apply p-1 my-0 mx-2 justify-center items-center flex rounded-md w-auto h-6 font-semibold bg-opacity-10 text-white hover:opacity-100;
+  }
+
+  .tt-item {
+    @apply p-3 m-3 text-2xl h-auto font-semibold no-select transform transition duration-100 opacity-75 hover:opacity-100;
+  }
+
+  .tt-item svg {
+    @apply h-6 w-6 ml-2;
+  }  
+
+  .tag-react {
+    @apply bg-[#67d7fc] text-[#67d7fc] bg-opacity-10 ;
+  }
+  .tag-js {
+    @apply bg-[#f4dc1a] text-[rgb(196,178,47)] bg-opacity-10 ;
+  }
+  .tag-css {
+    @apply bg-[#244ce1] text-[#244ce1] bg-opacity-10 ;
+  }
+  .tag-html {
+    @apply bg-[#e34b24] text-[#e34b24] bg-opacity-10 ;
+  }
+  .tag-next {
+    @apply bg-black text-black bg-opacity-10 ;
+  }
+  .tag-gatsby {
+    @apply bg-[#7026b9] text-[#7026b9] bg-opacity-10 ;
+  }
+  .tag-tailwind {
+    @apply bg-[#3d9faf] text-[#3d9faf] bg-opacity-10 ;
+  }
+  .tag-styled {
+    @apply bg-[#eeaf5c] text-[#eeaf5c] bg-opacity-10 ;
+  }
+  .tag-sass {
+    @apply bg-[#cf6499] text-[#cf6499] bg-opacity-10 ;
+  }
+
+
+  *{
+    /* border: 1px red solid; */
+  }
+
+}
