@@ -2,13 +2,14 @@ import react from 'react'
 
 export const Project = ({title='Project Title',linkHref='#',linkTitle='Link',gitHubHref='',tags=[],children='Project body',color='black',border}) => {
     const borderColor = 'border-'+color
+    const textColor ='text-'+color
     
     return (
         <div className={`project-card border-4 ${border} bg-white w-full h-auto`}>
             <h4 className='p-2 block text-3xl font-semibold'>{title}</h4>
             <div className='flex flex-col lg:flex-row lg:flex-wrap px-2 py-0 pb-6 '>
-                <h4 className={`text-lg md:text-xl text-${color}`}>
-                    <a className={`${border} border-opacity-100 border-b-[3px] hover:border-opacity-75 hover:text-gray-500 hover:border-b-[5px] hover:pb-0`} href={linkHref} target='_blank'>
+                <h4 className={`text-lg md:text-xl`}>
+                    <a className={`${border} ${textColor} border-opacity-100 border-b-[3px] hover:border-opacity-75 hover:text-gray-500 hover:border-b-[5px] hover:pb-0`} href={linkHref} target='_blank'>
                     {linkTitle}
                     </a>
                 </h4>
