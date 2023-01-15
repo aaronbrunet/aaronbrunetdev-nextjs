@@ -39,7 +39,7 @@ export default function Home() {
             <Br2 />
             You can connect with me on <HeroLink href='https://www.linkedin.com/in/aaronwbrunet/' classes='border-[#0a66c2]'>LinkedIn</HeroLink>, or check out my <HeroLink href='https://github.com/aaronbrunet' classes='border-yellow-600'>GitHub</HeroLink> to see what I've been working on.
             <br/>
-            I'm currently working for <HeroLink href='https://www.servicenow.com/' classes='border-[#81b5a1]'>ServiceNow</HeroLink> as a <span className='font-semibold'>Performance Engineer</span>.
+            I'm currently working for <HeroLink href='https://www.servicenow.com/' classes='border-[#81b5a1]'>ServiceNow</HeroLink> as a <span className='font-semibold'>Senior Performance Engineer</span>.
             <Br2 />
             Think I should join your team? Shoot me an <HeroLink href='mailto:contact@aaronbru.net' classes='border-red-600'>email</HeroLink>!</p>
                 
